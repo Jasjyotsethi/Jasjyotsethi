@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="480" viewBox="0 0 1200 480" role="img" aria-labelledby="title desc" preserveAspectRatio="xMidYMid meet">
+  <title id="title">Jasjyot — robotics and software engineering profile banner</title>
+  <desc id="desc">A dark terminal-inspired profile banner with an abstract autonomous robot map on the left and factual profile details on the right.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#07101c"/><stop offset="1" stop-color="#111426"/></linearGradient>
+    <linearGradient id="pane" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#13243a" stop-opacity=".88"/><stop offset="1" stop-color="#17172c" stop-opacity=".78"/></linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#53e4dc"/><stop offset="1" stop-color="#a78bfa"/></linearGradient>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#8eb6d2" stroke-opacity=".075" stroke-width="1"/></pattern>
+    <pattern id="dots" width="16" height="16" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.2" fill="#7de7e0" fill-opacity=".22"/></pattern>
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <clipPath id="clip"><rect x="20" y="20" width="1160" height="440" rx="24"/></clipPath>
+  </defs>
+  <g clip-path="url(#clip)">
+    <rect x="20" y="20" width="1160" height="440" rx="24" fill="url(#bg)"/>
+    <rect x="20" y="20" width="1160" height="440" fill="url(#grid)"/>
+    <path d="M0 416C215 370 352 491 548 412S896 322 1212 388V500H0Z" fill="#523b8c" opacity=".09"/>
+    <rect x="36" y="36" width="542" height="408" rx="18" fill="url(#pane)" stroke="#b8d3e7" stroke-opacity=".14"/>
+    <rect x="596" y="36" width="568" height="408" rx="18" fill="url(#pane)" stroke="#b8d3e7" stroke-opacity=".14"/>
+    <rect x="36" y="36" width="542" height="408" rx="18" fill="url(#dots)" opacity=".42"/>
+    <path d="M37 70H577" stroke="#9cb9ce" stroke-opacity=".14"/>
+    <circle cx="58" cy="54" r="4" fill="#fb7185"/><circle cx="74" cy="54" r="4" fill="#fbbf24"/><circle cx="90" cy="54" r="4" fill="#5eead4"/>
+    <text x="112" y="59" fill="#9fb8cc" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" letter-spacing="1.6">VISUAL.MAP <tspan fill="#57758c">/ autonomous systems</tspan></text>
+    <text x="60" y="99" fill="#66ddd6" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" letter-spacing="1.8">NAVIGATION TRACE <tspan fill="#657b91">· ABSTRACT CONCEPT</tspan></text>
+    <!-- maze-inspired route -->
+    <g fill="none" stroke="#7c91a7" stroke-opacity=".45" stroke-width="2">
+      <path d="M78 137H194V183H136V229H226V275H166V322H260V367"/>
+      <path d="M194 137H300V183H258M226 229H326V275H286M260 322H340V367"/>
+      <path d="M78 137V229M136 183V275M166 275V322M300 137V160M326 229V250"/>
+    </g>
+    <path d="M92 343L92 204L166 204L166 298L226 298L226 252L302 252" fill="none" stroke="url(#accent)" stroke-width="3" stroke-linecap="round" stroke-dasharray="7 8" opacity=".9">
+      <animate attributeName="stroke-dashoffset" values="0;-60" dur="5s" repeatCount="indefinite"/>
+    </path>
+    <g fill="#76e6de">
+      <circle cx="92" cy="343" r="4"/><circle cx="92" cy="204" r="4"/><circle cx="166" cy="204" r="4"/><circle cx="166" cy="298" r="4"/><circle cx="226" cy="298" r="4"/><circle cx="226" cy="252" r="4"/><circle cx="302" cy="252" r="4"/>
+    </g>
+    <!-- abstract robot, no portrait -->
+    <g transform="translate(399 222)" stroke="#a78bfa" stroke-width="2" fill="#11192a">
+      <path d="M0-41V-56M-25-28L-36-39M25-28L36-39" fill="none" stroke-linecap="round"/>
+      <circle cx="0" cy="-58" r="3" fill="#5eead4" stroke="none"><animate attributeName="opacity" values=".45;1;.45" dur="2.8s" repeatCount="indefinite"/></circle>
+      <rect x="-39" y="-25" width="78" height="59" rx="15"/>
+      <path d="M-39-7H-52V16H-39M39-7H52V16H39" fill="none"/>
+      <circle cx="-15" cy="-1" r="5" fill="#5eead4" stroke="none" filter="url(#glow)"/><circle cx="15" cy="-1" r="5" fill="#5eead4" stroke="none" filter="url(#glow)"/>
+      <path d="M-13 17Q0 26 13 17" fill="none" stroke="#5eead4" stroke-linecap="round"/>
+      <rect x="-26" y="34" width="52" height="26" rx="8" fill="#11192a"/>
+      <path d="M-18 60V68M18 60V68"/>
+    </g>
+    <circle cx="399" cy="222" r="88" fill="none" stroke="#62dcd5" stroke-opacity=".14" stroke-dasharray="2 8"><animateTransform attributeName="transform" type="rotate" from="0 399 222" to="360 399 222" dur="28s" repeatCount="indefinite"/></circle>
+    <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#91a8bb">
+      <text x="69" y="407">PATH: explore → sense → decide</text><text x="359" y="331" fill="#61d9d1">BOT.NODE</text><text x="359" y="349">state: prototype studies</text>
+    </g>
+    <path d="M597 70H1164" stroke="#9cb9ce" stroke-opacity=".14"/>
+    <circle cx="619" cy="54" r="4" fill="#fb7185"/><circle cx="635" cy="54" r="4" fill="#fbbf24"/><circle cx="651" cy="54" r="4" fill="#5eead4"/>
+    <text x="673" y="59" fill="#9fb8cc" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" letter-spacing="1.6">SYSTEM.INFO <tspan fill="#57758c">/ jasjyotsethi</tspan></text>
+    <text x="630" y="111" fill="#5eead4" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" letter-spacing="2">STUDENT · ENGINEERING INTERESTS</text>
+    <text x="628" y="165" fill="#eef4fb" font-family="ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="48" font-weight="650" letter-spacing="-1.8">Jasjyot</text>
+    <text x="631" y="196" fill="#b9c8d8" font-family="ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="17">Robotics, autonomous systems</text>
+    <text x="631" y="220" fill="#b9c8d8" font-family="ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="17">and software development.</text>
+    <path d="M631 241H1128" stroke="url(#accent)" stroke-opacity=".7"/>
+    <text x="631" y="269" fill="#718ba2" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" letter-spacing="2">TECHNICAL INTERESTS</text>
+    <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12">
+      <rect x="631" y="283" width="132" height="28" rx="8" fill="#17313b" stroke="#5eead4" stroke-opacity=".3"/><text x="646" y="301" fill="#9bece5">ROBOTICS</text>
+      <rect x="773" y="283" width="170" height="28" rx="8" fill="#21213a" stroke="#a78bfa" stroke-opacity=".34"/><text x="788" y="301" fill="#c8b8ff">AUTONOMY</text>
+      <rect x="953" y="283" width="175" height="28" rx="8" fill="#17313b" stroke="#5eead4" stroke-opacity=".3"/><text x="968" y="301" fill="#9bece5">COMPUTER VISION</text>
+      <rect x="631" y="321" width="117" height="28" rx="8" fill="#21213a" stroke="#a78bfa" stroke-opacity=".34"/><text x="646" y="339" fill="#c8b8ff">PYTHON</text>
+      <rect x="758" y="321" width="104" height="28" rx="8" fill="#17313b" stroke="#5eead4" stroke-opacity=".3"/><text x="773" y="339" fill="#9bece5">C++</text>
+      <rect x="872" y="321" width="116" height="28" rx="8" fill="#21213a" stroke="#a78bfa" stroke-opacity=".34"/><text x="887" y="339" fill="#c8b8ff">ARDUINO</text>
+      <rect x="998" y="321" width="130" height="28" rx="8" fill="#17313b" stroke="#5eead4" stroke-opacity=".3"/><text x="1013" y="339" fill="#9bece5">EV3 ROBOTICS</text>
+    </g>
+    <text x="631" y="381" fill="#718ba2" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" letter-spacing="1.8">SELECTED WORK</text>
+    <a href="https://robocup-junior.github.io/rcj-rescue-docs-site/2026/maze/the-worriers/" xlink:href="https://robocup-junior.github.io/rcj-rescue-docs-site/2026/maze/the-worriers/" aria-label="Official RoboCupJunior archive entry for The Worriers">
+      <text x="631" y="408" fill="#7de7e0" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14">RoboCupJunior Rescue Maze — The Worriers ↗</text>
+    </a>
+    <text x="631" y="427" fill="#8499ad" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10">Team archive reference · individual contributions vary</text>
+    <g opacity=".22"><path d="M20 92H1180M20 186H1180M20 280H1180M20 374H1180" stroke="#b9d5ea" stroke-width=".6"><animate attributeName="opacity" values=".12;.4;.12" dur="8s" repeatCount="indefinite"/></path></g>
+  </g>
+</svg>
