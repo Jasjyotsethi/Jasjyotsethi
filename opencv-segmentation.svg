@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="224" viewBox="0 0 320 112" role="img" aria-labelledby="title desc">
+  <title id="title">OpenCV colour segmentation illustration</title>
+  <desc id="desc">Sample colour regions flow through a simplified segmentation grid with highlighted masks. This is an illustration, not a photograph.</desc>
+  <rect width="320" height="112" rx="8" fill="#101a28"/>
+  <rect x="28" y="28" width="74" height="56" rx="7" fill="#1d3044" stroke="#54708d" stroke-width="2"/>
+  <circle cx="51" cy="49" r="10" fill="#ff5b65"/>
+  <circle cx="78" cy="64" r="10" fill="#4385ff"/>
+  <path d="M115 56H157" stroke="#42d9ff" stroke-width="3"/>
+  <path d="M150 49L159 56L150 63" fill="none" stroke="#42d9ff" stroke-width="3"/>
+  <g stroke-width="2">
+    <rect x="177" y="22" width="45" height="29" rx="4" fill="#39202b" stroke="#ff5b65"/>
+    <rect x="234" y="22" width="45" height="29" rx="4" fill="#202b4a" stroke="#4385ff"/>
+    <rect x="177" y="61" width="45" height="29" rx="4" fill="#193a38" stroke="#2bd8ad"/>
+    <rect x="234" y="61" width="45" height="29" rx="4" fill="#263348" stroke="#54708d"/>
+  </g>
+  <path d="M187 42L197 31L210 44M244 42L254 31L267 44M187 81L197 70L210 83" fill="none" stroke="#d8efff" stroke-opacity=".8" stroke-width="2"/>
+</svg>

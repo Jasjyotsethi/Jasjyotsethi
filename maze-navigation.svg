@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="224" viewBox="0 0 320 112" role="img" aria-labelledby="title desc">
+  <title id="title">Maze navigation diagram</title>
+  <desc id="desc">Abstract maze walls with a cyan route and a small robot marker. This is an illustration, not a photograph.</desc>
+  <rect width="320" height="112" rx="8" fill="#101a28"/>
+  <path d="M24 18H296M24 18V94H296V18M78 18V68H130V42H208V94M130 68H182V94M242 18V54H296" fill="none" stroke="#54708d" stroke-width="4" stroke-linecap="round"/>
+  <path d="M42 82V36H108V54H156V78H224V36H270" fill="none" stroke="#42d9ff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="42" cy="82" r="6" fill="#4385ff"/>
+  <circle cx="270" cy="36" r="6" fill="#42d9ff"/>
+</svg>

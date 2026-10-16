@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="224" viewBox="0 0 320 112" role="img" aria-labelledby="title desc">
+  <title id="title">Abstract LEGO EV3-style robot</title>
+  <desc id="desc">A simplified block-based mobile robot with wheels, sensor eyes, and cyan circuit details. This is an illustration, not a photograph.</desc>
+  <rect width="320" height="112" rx="8" fill="#101a28"/>
+  <path d="M68 88H252" stroke="#54708d" stroke-width="3" stroke-dasharray="5 7"/>
+  <g stroke="#42d9ff" stroke-width="3" fill="#17283a">
+    <rect x="119" y="30" width="82" height="50" rx="7"/>
+    <rect x="138" y="15" width="44" height="18" rx="4"/>
+    <circle cx="130" cy="87" r="13"/>
+    <circle cx="190" cy="87" r="13"/>
+    <path d="M119 56H101V71H119M201 56H219V71H201"/>
+  </g>
+  <rect x="148" y="22" width="24" height="10" rx="2" fill="#4385ff"/>
+  <circle cx="146" cy="52" r="5" fill="#42d9ff"/>
+  <circle cx="174" cy="52" r="5" fill="#42d9ff"/>
+  <path d="M147 68H173" stroke="#4385ff" stroke-width="3" stroke-linecap="round"/>
+</svg>

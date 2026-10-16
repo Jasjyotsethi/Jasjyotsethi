@@ -1,44 +1,38 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="410" viewBox="0 0 1200 410" role="img" aria-labelledby="title desc" preserveAspectRatio="xMidYMid meet">
-  <title id="title">Jasjyot | Robotics + AI</title>
-  <desc id="desc">Light engineering banner with a blue maze route and abstract robot illustration beside Jasjyot's robotics, autonomous systems, and software interests.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="310" viewBox="0 0 1200 310" role="img" aria-labelledby="title desc" preserveAspectRatio="xMidYMid meet">
+  <title id="title">Jasjyot — Robotics + AI</title>
+  <desc id="desc">Compact light engineering banner with an electric-blue maze route and abstract mobile robot schematic beside a Robotics + AI identity.</desc>
   <defs>
-    <linearGradient id="bgL" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f5f9fd"/><stop offset="1" stop-color="#eaf2fb"/></linearGradient>
-    <linearGradient id="blueL" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#007fba"/><stop offset="1" stop-color="#365fe8"/></linearGradient>
-    <pattern id="gridL" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#456885" stroke-opacity=".1" stroke-width="1"/></pattern>
-    <filter id="glowL" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="3" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
-    <clipPath id="frameL"><rect x="18" y="18" width="1164" height="374" rx="22"/></clipPath>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f5f9fd"/><stop offset="1" stop-color="#e8f1fa"/></linearGradient>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#007fad"/><stop offset="1" stop-color="#365fe8"/></linearGradient>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#58738d" stroke-opacity=".12"/></pattern>
+    <clipPath id="clip"><rect x="14" y="14" width="1172" height="282" rx="18"/></clipPath>
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="2.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
   </defs>
-  <g clip-path="url(#frameL)">
-    <rect x="18" y="18" width="1164" height="374" rx="22" fill="url(#bgL)"/>
-    <rect x="18" y="18" width="1164" height="374" fill="url(#gridL)"/>
-    <path d="M605 18V392" stroke="#344f68" stroke-opacity=".2"/><path d="M18 83H1182" stroke="#344f68" stroke-opacity=".18"/>
-    <circle cx="49" cy="51" r="4" fill="#d9485d"/><circle cx="65" cy="51" r="4" fill="#bd821c"/><circle cx="81" cy="51" r="4" fill="#007fba"/>
-    <text x="104" y="56" fill="#3c5369" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" letter-spacing="1.6">FIELD NOTES <tspan fill="#70859a">/ ROBOTICS + AI</tspan></text>
-    <text x="52" y="113" fill="#006e9f" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" letter-spacing="2">NAVIGATION STUDY <tspan fill="#71849b">· ABSTRACT DIAGRAM</tspan></text>
-    <g fill="none" stroke="#63778b" stroke-opacity=".58" stroke-width="2">
-      <path d="M66 147H167V186H119V225H205V264H153V303H250V344"/><path d="M167 147H263V186H227M205 225H290V264H252M250 303H328V344"/><path d="M66 147V225M119 186V264M153 264V303M263 147V170M290 225V246"/>
+  <g clip-path="url(#clip)">
+    <rect x="14" y="14" width="1172" height="282" rx="18" fill="url(#bg)"/><rect x="14" y="14" width="1172" height="282" fill="url(#grid)"/>
+    <path d="M40 61H1160" stroke="#526a80" stroke-opacity=".2"/>
+    <circle cx="43" cy="39" r="3.5" fill="#d95766"/><circle cx="57" cy="39" r="3.5" fill="#bd821b"/><circle cx="71" cy="39" r="3.5" fill="#007f9d"/>
+    <text x="91" y="43" fill="#3f566b" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" letter-spacing="1.6">ROBOTICS + AI <tspan fill="#71869a">/ PROFILE SYSTEM</tspan></text>
+    <text x="54" y="137" fill="#12243a" font-family="ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="57" font-weight="700" letter-spacing="-2">Jasjyot</text>
+    <text x="56" y="170" fill="#3c5369" font-family="ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="17">Robotics, autonomous systems</text>
+    <text x="56" y="194" fill="#3c5369" font-family="ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="17">and software development.</text>
+    <rect x="56" y="213" width="68" height="3" rx="1.5" fill="url(#blue)"/>
+    <text x="56" y="246" fill="#006f9b" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" letter-spacing="1.1">SENSE  /  PLAN  /  BUILD  /  VERIFY</text>
+    <g fill="none" stroke="#63788e" stroke-opacity=".62" stroke-width="2">
+      <path d="M690 91H790V127H750V163H824V199H784V235H880V270"/><path d="M790 91H889V127H855M824 163H916V199H878M880 235H964V270"/><path d="M690 91V163M750 127V199M784 199V235M889 91V111M916 163V181"/>
     </g>
-    <path d="M81 326V204H153V285H205V243H275" fill="none" stroke="url(#blueL)" stroke-width="3" stroke-linecap="round" stroke-dasharray="5 8" filter="url(#glowL)">
-      <animate attributeName="stroke-dashoffset" values="0;-52" dur="5.5s" repeatCount="indefinite"/>
+    <path d="M704 252V145H784V218H824V180H902" fill="none" stroke="url(#blue)" stroke-width="3" stroke-linecap="round" stroke-dasharray="5 8" filter="url(#glow)">
+      <animate attributeName="stroke-dashoffset" values="0;-52" dur="6s" repeatCount="indefinite"/>
     </path>
-    <g fill="#087eaf"><circle cx="81" cy="326" r="4"/><circle cx="81" cy="204" r="4"/><circle cx="153" cy="204" r="4"/><circle cx="153" cy="285" r="4"/><circle cx="205" cy="285" r="4"/><circle cx="205" cy="243" r="4"/><circle cx="275" cy="243" r="4"/></g>
-    <g transform="translate(410 238)" stroke="#365fe8" stroke-width="2" fill="#f7fbff">
-      <path d="M0-47V-63M-28-30L-42-43M28-30L42-43" fill="none" stroke-linecap="round"/>
-      <circle cx="0" cy="-65" r="3" fill="#087eaf" stroke="none"><animate attributeName="opacity" values=".35;1;.35" dur="3s" repeatCount="indefinite"/></circle>
-      <rect x="-43" y="-29" width="86" height="67" rx="17"/><path d="M-43-8H-56V17H-43M43-8H56V17H43" fill="none"/>
-      <circle cx="-16" cy="-3" r="5" fill="#087eaf" stroke="none" filter="url(#glowL)"/><circle cx="16" cy="-3" r="5" fill="#087eaf" stroke="none" filter="url(#glowL)"/>
-      <path d="M-13 18Q0 28 13 18" fill="none" stroke="#087eaf" stroke-linecap="round"/><rect x="-28" y="38" width="56" height="28" rx="8" fill="#f7fbff"/><path d="M-19 66V74M19 66V74"/>
+    <g fill="#007f9d"><circle cx="704" cy="252" r="4"/><circle cx="704" cy="145" r="4"/><circle cx="784" cy="145" r="4"/><circle cx="784" cy="218" r="4"/><circle cx="824" cy="218" r="4"/><circle cx="824" cy="180" r="4"/><circle cx="902" cy="180" r="4"/></g>
+    <g transform="translate(1020 170)" stroke="#365fe8" stroke-width="2" fill="#f8fbff">
+      <path d="M0-47V-62M-29-28L-43-42M29-28L43-42" fill="none" stroke-linecap="round"/><circle cx="0" cy="-64" r="3" fill="#007f9d" stroke="none"><animate attributeName="opacity" values=".4;1;.4" dur="3s" repeatCount="indefinite"/></circle>
+      <rect x="-43" y="-28" width="86" height="66" rx="16"/><path d="M-43-5H-56V18H-43M43-5H56V18H43" fill="none"/>
+      <circle cx="-16" cy="-1" r="5" fill="#007f9d" stroke="none" filter="url(#glow)"/><circle cx="16" cy="-1" r="5" fill="#007f9d" stroke="none" filter="url(#glow)"/>
+      <path d="M-13 20Q0 29 13 20" fill="none" stroke="#007f9d" stroke-linecap="round"/><rect x="-27" y="38" width="54" height="25" rx="7" fill="#f8fbff"/><path d="M-18 63V70M18 63V70"/>
     </g>
-    <circle cx="410" cy="238" r="93" fill="none" stroke="#365fe8" stroke-opacity=".23" stroke-dasharray="2 9"><animateTransform attributeName="transform" type="rotate" from="0 410 238" to="360 410 238" dur="34s" repeatCount="indefinite"/></circle>
-    <text x="52" y="374" fill="#4c6278" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11">SENSE <tspan fill="#087eaf">→</tspan> PLAN <tspan fill="#087eaf">→</tspan> ACT</text>
-    <text x="347" y="354" fill="#087eaf" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" letter-spacing="1">MOBILE ROBOT / CONCEPT</text>
-    <text x="651" y="121" fill="#006e9f" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" letter-spacing="2.2">ROBOTICS + AI <tspan fill="#6a8094">/ STUDENT INTERESTS</tspan></text>
-    <text x="646" y="190" fill="#142337" font-family="ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="58" font-weight="650" letter-spacing="-2">Jasjyot</text>
-    <text x="651" y="226" fill="#3d5368" font-family="ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="18">Autonomous systems, embedded robotics</text>
-    <text x="651" y="252" fill="#3d5368" font-family="ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="18">and software development.</text>
-    <rect x="651" y="275" width="86" height="3" rx="1.5" fill="url(#blueL)"/>
-    <text x="651" y="315" fill="#405b73" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" letter-spacing="1.5">PYTHON · C++ · ARDUINO · EV3 · OPENCV</text>
-    <text x="651" y="344" fill="#3d5368" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14">Navigation  /  sensing  /  computer vision</text>
-    <text x="651" y="366" fill="#647d92" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" letter-spacing="1.4">BUILD · DOCUMENT · VERIFY</text>
+    <circle cx="1020" cy="170" r="76" fill="none" stroke="#365fe8" stroke-opacity=".25" stroke-dasharray="2 8"><animateTransform attributeName="transform" type="rotate" from="0 1020 170" to="360 1020 170" dur="38s" repeatCount="indefinite"/></circle>
+    <path d="M940 86L968 117M1090 217L1146 244" stroke="#007f9d" stroke-opacity=".35" stroke-width="1.5"/>
+    <text x="666" y="280" fill="#526a80" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9" letter-spacing="1">ABSTRACT NAVIGATION / ROBOTICS STUDY</text>
   </g>
 </svg>
