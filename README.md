@@ -1,30 +1,47 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="light.svg">
-  <img alt="Jasjyot — student interested in robotics, autonomous systems, and software development" src="light.svg" width="100%">
+  <img src="dark.svg" alt="Jasjyot — Robotics + AI, autonomous systems, and software" width="100%">
 </picture>
 
-# Hi, I'm Jasjyot
+<h1 align="center">Jasjyot</h1>
+<p align="center"><strong>Robotics · Autonomous Systems · AI · Software</strong></p>
 
-I'm a student interested in **robotics, autonomous navigation, computer vision, AI, and software engineering**. My project work spans Python, C++, Arduino and embedded systems, and LEGO Mindstorms EV3.
+I'm a student interested in how software and hardware work together: sensing, navigation, embedded control, and computer vision. My project work includes Arduino and EV3 robotics, Python/OpenCV experiments, and team robotics materials.
 
-I use these projects to explore sensing, control, and software design. Experimental code is identified as such; I do not describe a project as working unless its behavior has been verified.
+## Featured projects
 
-## Selected work
+### [RoboCupJunior Rescue Maze — The Worriers](https://robocup-junior.github.io/rcj-rescue-docs-site/2026/maze/the-worriers/)
+Team project documented in the [official RoboCupJunior archive](https://robocup-junior.github.io/rcj-rescue-docs-site/2026/maze/the-worriers/). The archive presents the team's materials; it does not imply individual ownership or a competition placement.
 
-- **RoboCupJunior Rescue Maze — The Worriers** · Team project documented in the [official RoboCupJunior archive](https://robocup-junior.github.io/rcj-rescue-docs-site/2026/maze/the-worriers/), including team materials and code. This is a team reference; individual contributions and competition placement are not implied here.
-- **Arduino maze-navigation experiments** · Local sketches exploring navigation, sensors, and motor control. The selected sketches are not yet compiled or hardware-tested.
-- **LEGO Mindstorms EV3** · Selected maze and line-following programs; behavior still needs verification and documentation.
-- **Computer-vision experiments** · Selected OpenCV color-segmentation scripts, pending dependency and camera setup documentation.
+### [Arduino Maze Navigation](https://github.com/Jasjyotsethi/arduino-maze-navigation)
+Selected Arduino sketches exploring maze-navigation logic, distance and motion sensing, color sensing, and motor control. The sketches are experimental and have not been confirmed on hardware.
 
-## Interests
+### [EV3 Maze and Line Projects](https://github.com/Jasjyotsethi/ev3-maze-and-line-projects)
+Selected LEGO Mindstorms EV3 project files for maze and line-following experiments. Program behavior remains to be verified.
 
-Robotics · Autonomous systems · Embedded systems · Computer vision · AI · Python · C++ · Arduino · LEGO Mindstorms EV3
+### [OpenCV Color Vision Experiments](https://github.com/Jasjyotsethi/opencv-color-vision-experiments)
+Python examples exploring HSV color segmentation with OpenCV and a webcam.
 
-## Find me
+## Technology interests
 
-[GitHub profile](https://github.com/Jasjyotsethi)
+**Languages:** Python · C++  
+**Platforms:** Arduino · LEGO Mindstorms EV3  
+**Areas:** Robotics · Autonomous navigation · Embedded systems · OpenCV · Computer vision · AI
+
+## Currently learning
+
+- Sensor integration and control for mobile robots
+- Autonomous navigation and mapping concepts
+- Practical computer-vision workflows
+- Clear software structure for robotics projects
+
+## Engineering goals
+
+- Document experiments so others can reproduce the setup
+- Build robotics projects with clearly described hardware and software
+- Validate behavior with safe, observable tests and demonstrations
 
 ---
 
-Some prototypes remain private while security and privacy reviews are pending. This profile draft does not include their source code or associated data.
+[GitHub repositories](https://github.com/Jasjyotsethi?tab=repositories) · [GitHub profile](https://github.com/Jasjyotsethi)
