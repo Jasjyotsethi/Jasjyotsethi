@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="800" viewBox="0 0 480 400" role="img" aria-labelledby="title desc" preserveAspectRatio="xMidYMid meet">
+  <title id="title">JARVIS conceptual assistant architecture</title>
+  <desc id="desc">A conceptual flow from user input to assistant orchestration, with two-way interaction between orchestration and modules or tools. The module area branches to documented local memory and desktop tool areas plus optional integration extension points. Response generation then branches to separate GUI status and optional speech outputs. Optional elements are not claims of configuration or testing.</desc>
+  <defs><pattern id="grid" width="16" height="16" patternUnits="userSpaceOnUse"><path d="M16 0H0V16" fill="none" stroke="#7690aa" stroke-opacity=".1"/></pattern></defs>
+  <rect width="480" height="400" rx="10" fill="#0b1421"/><rect width="480" height="400" rx="10" fill="url(#grid)"/>
+  <text x="20" y="20" fill="#8da5bb" font-family="Menlo,Consolas,monospace" font-size="8" letter-spacing="1.1">JARVIS / CONCEPTUAL ASSISTANT ARCHITECTURE</text>
+  <g fill="#12243a" stroke="#4b83ff" stroke-width="1.5">
+    <rect x="174" y="32" width="132" height="32" rx="6"/>
+    <rect x="130" y="88" width="220" height="40" rx="6"/>
+    <rect x="130" y="154" width="220" height="40" rx="6"/>
+    <rect x="14" y="222" width="142" height="38" rx="6"/>
+    <rect x="169" y="222" width="142" height="38" rx="6"/>
+    <rect x="324" y="222" width="142" height="38" rx="6" stroke-dasharray="4 3"/>
+    <rect x="130" y="286" width="220" height="38" rx="6"/>
+    <rect x="54" y="348" width="164" height="34" rx="6"/>
+    <rect x="262" y="348" width="164" height="34" rx="6" stroke-dasharray="4 3"/>
+  </g>
+  <g font-family="Menlo,Consolas,monospace" text-anchor="middle">
+    <text x="240" y="52" fill="#e3edf7" font-size="9">USER INPUT</text>
+    <text x="240" y="106" fill="#e3edf7" font-size="9">ASSISTANT / AGENT</text><text x="240" y="119" fill="#9bb0c6" font-size="8">ORCHESTRATION</text>
+    <text x="240" y="172" fill="#e3edf7" font-size="9">MODULES + TOOLS</text><text x="240" y="185" fill="#9bb0c6" font-size="8">DOCUMENTED PLUGIN STRUCTURE</text>
+    <text x="85" y="239" fill="#e3edf7" font-size="8">LOCAL MEMORY</text><text x="85" y="251" fill="#9bb0c6" font-size="7">SQLITE</text>
+    <text x="240" y="239" fill="#e3edf7" font-size="8">DESKTOP TOOLS</text><text x="240" y="251" fill="#9bb0c6" font-size="7">PLUGIN AREA</text>
+    <text x="395" y="238" fill="#e3edf7" font-size="7">OTHER SUPPORTED</text><text x="395" y="250" fill="#9bb0c6" font-size="7">INTEGRATIONS · OPTIONAL</text>
+    <text x="240" y="309" fill="#e3edf7" font-size="9">RESPONSE GENERATION</text>
+    <text x="136" y="369" fill="#e3edf7" font-size="8">GUI OUTPUT + STATUS</text>
+    <text x="344" y="363" fill="#e3edf7" font-size="8">SPEECH OUTPUT</text><text x="344" y="375" fill="#9bb0c6" font-size="7">OPTIONAL</text>
+  </g>
+  <g fill="none" stroke="#49dff3" stroke-width="2">
+    <path d="M240 64V84M235 79L240 84L245 79"/>
+    <path d="M240 128V150M235 145L240 150L245 145"/>
+    <path d="M224 141H112V150M117 145L112 150L107 145M256 141H368V150M363 145L368 150L373 145"/>
+    <path d="M240 194V210H85V218M80 213L85 218L90 213M240 210V218M235 213L240 218L245 213M240 210H395V218M390 213L395 218L400 213"/>
+    <path d="M85 260V272M240 260V272M395 260V272M85 272H395M240 272V280M235 275L240 280L245 275"/>
+    <path d="M240 324V336H136V344M131 339L136 344L141 339M240 336H344V344M339 339L344 344L349 339"/>
+  </g>
+  <g fill="none" stroke="#4b83ff" stroke-width="1.8">
+    <path d="M240 150V136M235 141L240 136L245 141"/>
+  </g>
+  <text x="20" y="394" fill="#8097ad" font-family="Menlo,Consolas,monospace" font-size="7" letter-spacing=".6">CONCEPTUAL DOCUMENTED COMPONENTS / DASHED ITEMS ARE OPTIONAL EXTENSION AREAS</text>
+</svg>

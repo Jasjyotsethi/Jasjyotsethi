@@ -1,17 +1,19 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="640" height="224" viewBox="0 0 320 112" role="img" aria-labelledby="title desc">
-  <title id="title">OpenCV colour segmentation illustration</title>
-  <desc id="desc">Sample colour regions flow through a simplified segmentation grid with highlighted masks. This is an illustration, not a photograph.</desc>
-  <rect width="320" height="112" rx="8" fill="#101a28"/>
-  <rect x="28" y="28" width="74" height="56" rx="7" fill="#1d3044" stroke="#54708d" stroke-width="2"/>
-  <circle cx="51" cy="49" r="10" fill="#ff5b65"/>
-  <circle cx="78" cy="64" r="10" fill="#4385ff"/>
-  <path d="M115 56H157" stroke="#42d9ff" stroke-width="3"/>
-  <path d="M150 49L159 56L150 63" fill="none" stroke="#42d9ff" stroke-width="3"/>
-  <g stroke-width="2">
-    <rect x="177" y="22" width="45" height="29" rx="4" fill="#39202b" stroke="#ff5b65"/>
-    <rect x="234" y="22" width="45" height="29" rx="4" fill="#202b4a" stroke="#4385ff"/>
-    <rect x="177" y="61" width="45" height="29" rx="4" fill="#193a38" stroke="#2bd8ad"/>
-    <rect x="234" y="61" width="45" height="29" rx="4" fill="#263348" stroke="#54708d"/>
-  </g>
-  <path d="M187 42L197 31L210 44M244 42L254 31L267 44M187 81L197 70L210 83" fill="none" stroke="#d8efff" stroke-opacity=".8" stroke-width="2"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="300" viewBox="0 0 480 150" role="img" aria-labelledby="title desc" preserveAspectRatio="xMidYMid meet">
+  <title id="title">OpenCV color segmentation pipeline illustration</title>
+  <desc id="desc">A conceptual computer-vision flow from color input through an HSV processing stage to red, blue, and green mask samples and output labels. It does not represent a measured result.</desc>
+  <defs><pattern id="grid" width="16" height="16" patternUnits="userSpaceOnUse"><path d="M16 0H0V16" fill="none" stroke="#7690aa" stroke-opacity=".1"/></pattern></defs>
+  <rect width="480" height="150" rx="10" fill="#0b1421"/><rect width="480" height="150" rx="10" fill="url(#grid)"/>
+  <text x="18" y="20" fill="#8da5bb" font-family="Menlo,Consolas,monospace" font-size="8" letter-spacing="1.2">VISION PIPELINE / COLOR MASKS</text>
+  <g font-family="Menlo,Consolas,monospace" font-size="7" letter-spacing=".7" fill="#a8bbce"><text x="27" y="41">INPUT</text><text x="151" y="41">HSV</text><text x="264" y="41">MASKS</text><text x="393" y="41">LABELS</text></g>
+  <rect x="22" y="51" width="77" height="63" rx="6" fill="#16283a" stroke="#526b85"/>
+  <circle cx="45" cy="72" r="12" fill="#ff5b65"/><circle cx="75" cy="91" r="12" fill="#4b83ff"/><circle cx="72" cy="67" r="6" fill="#32d6a2"/>
+  <path d="M108 82H130M124 76L131 82L124 88" fill="none" stroke="#48dff2" stroke-width="2"/>
+  <rect x="139" y="55" width="65" height="55" rx="6" fill="#12243a" stroke="#4b83ff"/>
+  <path d="M151 94L165 68L178 94M178 68V95M187 70V94" fill="none" stroke="#4bdcf1" stroke-width="2"/>
+  <path d="M213 82H235M229 76L236 82L229 88" fill="none" stroke="#48dff2" stroke-width="2"/>
+  <g stroke-width="1.5"><rect x="245" y="52" width="42" height="25" rx="4" fill="#3a2029" stroke="#ff5b65"/><rect x="245" y="84" width="42" height="25" rx="4" fill="#202a48" stroke="#4b83ff"/><rect x="295" y="52" width="42" height="25" rx="4" fill="#18372f" stroke="#32d6a2"/><rect x="295" y="84" width="42" height="25" rx="4" fill="#18283a" stroke="#526b85"/></g>
+  <g fill="none" stroke="#e6f6ff" stroke-width="1.5"><path d="M252 71L260 59L279 71M252 103L260 91L279 103M302 71L310 59L329 71"/></g>
+  <path d="M347 82H365M359 76L366 82L359 88" fill="none" stroke="#48dff2" stroke-width="2"/>
+  <g font-family="Menlo,Consolas,monospace" font-size="7"><text x="377" y="63" fill="#ff7884">RED</text><text x="377" y="82" fill="#70a0ff">BLUE</text><text x="377" y="101" fill="#4fe0b0">GREEN</text></g>
+  <text x="18" y="137" fill="#8097ad" font-family="Menlo,Consolas,monospace" font-size="7" letter-spacing="1">INPUT → COLOR SPACE → SEGMENTATION MASKS → CLASS LABELS</text>
 </svg>

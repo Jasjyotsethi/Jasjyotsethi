@@ -1,46 +1,34 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="310" viewBox="0 0 1200 310" role="img" aria-labelledby="title desc" preserveAspectRatio="xMidYMid meet">
-  <title id="title">Jasjyot — Robotics + AI</title>
-  <desc id="desc">Compact charcoal banner with an electric-blue maze route and abstract mobile robot schematic beside a Robotics + AI identity.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="title desc" preserveAspectRatio="xMidYMid meet">
+  <title id="title">Jasjyot | Robotics and autonomous systems</title>
+  <desc id="desc">A cinematic robotics dashboard banner with a midnight grid, autonomous navigation path, sensor marks, and abstract mobile robot schematic.</desc>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0d1117"/><stop offset="1" stop-color="#111c2a"/></linearGradient>
-    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#4bdcff"/><stop offset="1" stop-color="#4385ff"/></linearGradient>
-    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#9bb0c8" stroke-opacity=".075"/></pattern>
-    <clipPath id="clip"><rect x="14" y="14" width="1172" height="282" rx="18"/></clipPath>
-    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#080f1b"/><stop offset="1" stop-color="#101d30"/></linearGradient>
+    <linearGradient id="route" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#39e4ff"/><stop offset="1" stop-color="#4b86ff"/></linearGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#9cb7d2" stroke-opacity=".07"/></pattern>
   </defs>
-  <g clip-path="url(#clip)">
-    <rect x="14" y="14" width="1172" height="282" rx="18" fill="url(#bg)"/>
-    <rect x="14" y="14" width="1172" height="282" fill="url(#grid)"/>
-    <path d="M40 61H1160" stroke="#afc1d4" stroke-opacity=".16"/>
-    <circle cx="43" cy="39" r="3.5" fill="#ff6d77"/><circle cx="57" cy="39" r="3.5" fill="#f2bd58"/><circle cx="71" cy="39" r="3.5" fill="#46d8ff"/>
-    <text x="91" y="43" fill="#9aadc2" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" letter-spacing="1.6">ROBOTICS + AI <tspan fill="#60758c">/ PROFILE SYSTEM</tspan></text>
-    <text x="54" y="137" fill="#f0f6fc" font-family="ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="57" font-weight="700" letter-spacing="-2">Jasjyot</text>
-    <text x="56" y="170" fill="#c4d2e1" font-family="ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="17">Robotics, autonomous systems</text>
-    <text x="56" y="194" fill="#c4d2e1" font-family="ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="17">and software development.</text>
-    <rect x="56" y="213" width="68" height="3" rx="1.5" fill="url(#blue)"/>
-    <text x="56" y="246" fill="#58dfff" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" letter-spacing="1.1">SENSE  /  PLAN  /  BUILD  /  VERIFY</text>
-    <!-- Abstract navigation map -->
-    <g fill="none" stroke="#71839a" stroke-opacity=".52" stroke-width="2">
-      <path d="M690 91H790V127H750V163H824V199H784V235H880V270"/>
-      <path d="M790 91H889V127H855M824 163H916V199H878M880 235H964V270"/>
-      <path d="M690 91V163M750 127V199M784 199V235M889 91V111M916 163V181"/>
-    </g>
-    <path d="M704 252V145H784V218H824V180H902" fill="none" stroke="url(#blue)" stroke-width="3" stroke-linecap="round" stroke-dasharray="5 8" filter="url(#glow)">
-      <animate attributeName="stroke-dashoffset" values="0;-52" dur="6s" repeatCount="indefinite"/>
-    </path>
-    <g fill="#52dcff"><circle cx="704" cy="252" r="4"/><circle cx="704" cy="145" r="4"/><circle cx="784" cy="145" r="4"/><circle cx="784" cy="218" r="4"/><circle cx="824" cy="218" r="4"/><circle cx="824" cy="180" r="4"/><circle cx="902" cy="180" r="4"/></g>
-    <!-- Abstract robot line art, not a photograph -->
-    <g transform="translate(1020 170)" stroke="#4ca5ff" stroke-width="2" fill="#111d2b">
-      <path d="M0-47V-62M-29-28L-43-42M29-28L43-42" fill="none" stroke-linecap="round"/>
-      <circle cx="0" cy="-64" r="3" fill="#4bdcff" stroke="none"><animate attributeName="opacity" values=".4;1;.4" dur="3s" repeatCount="indefinite"/></circle>
-      <rect x="-43" y="-28" width="86" height="66" rx="16"/>
-      <path d="M-43-5H-56V18H-43M43-5H56V18H43" fill="none"/>
-      <circle cx="-16" cy="-1" r="5" fill="#4bdcff" stroke="none" filter="url(#glow)"/><circle cx="16" cy="-1" r="5" fill="#4bdcff" stroke="none" filter="url(#glow)"/>
-      <path d="M-13 20Q0 29 13 20" fill="none" stroke="#4bdcff" stroke-linecap="round"/>
-      <rect x="-27" y="38" width="54" height="25" rx="7" fill="#111d2b"/><path d="M-18 63V70M18 63V70"/>
-    </g>
-    <circle cx="1020" cy="170" r="76" fill="none" stroke="#4385ff" stroke-opacity=".25" stroke-dasharray="2 8"><animateTransform attributeName="transform" type="rotate" from="0 1020 170" to="360 1020 170" dur="38s" repeatCount="indefinite"/></circle>
-    <path d="M940 86L968 117M1090 217L1146 244" stroke="#4bdcff" stroke-opacity=".35" stroke-width="1.5"/>
-    <text x="666" y="280" fill="#8ea2b8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9" letter-spacing="1">ABSTRACT NAVIGATION / ROBOTICS STUDY</text>
+  <rect x="8" y="8" width="1184" height="324" rx="18" fill="url(#bg)" stroke="#27405b"/>
+  <rect x="9" y="9" width="1182" height="322" rx="17" fill="url(#grid)"/>
+  <path d="M36 56H1164" stroke="#8fa8c1" stroke-opacity=".2"/>
+  <circle cx="38" cy="34" r="3" fill="#ff7884"/><circle cx="51" cy="34" r="3" fill="#e6bc68"/><circle cx="64" cy="34" r="3" fill="#42dfff"/>
+  <text x="82" y="38" fill="#a8bbcf" font-family="Menlo,Consolas,monospace" font-size="10" letter-spacing="2">SYSTEM / ROBOTICS + AI</text>
+  <text x="54" y="139" fill="#f3f7fc" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="62" font-weight="700" letter-spacing="-2">Jasjyot</text>
+  <text x="57" y="178" fill="#c1d0df" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="19">Robotics · autonomous systems · software</text>
+  <path d="M57 203H132" stroke="url(#route)" stroke-width="3"/>
+  <text x="57" y="235" fill="#dce6f0" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="15">Exploring how sensing, navigation, and vision</text>
+  <text x="57" y="258" fill="#dce6f0" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="15">connect software with the physical world.</text>
+  <text x="57" y="302" fill="#65dcf5" font-family="Menlo,Consolas,monospace" font-size="9" letter-spacing="1.5">SENSE  /  PLAN  /  CONTROL</text>
+  <g fill="none" stroke="#70849d" stroke-width="2" stroke-opacity=".62">
+    <path d="M656 93H760V127H721V166H794V203H758V244H864V286"/><path d="M760 93H875V127H843M794 166H917V203H878M864 244H958V286"/><path d="M656 93V166M721 127V203M758 203V244M875 93V111M917 166V185"/>
   </g>
+  <path d="M674 278V145H754V220H798V181H904" fill="none" stroke="url(#route)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <g fill="#4ce0ff"><circle cx="674" cy="278" r="4"/><circle cx="674" cy="145" r="4"/><circle cx="754" cy="145" r="4"/><circle cx="754" cy="220" r="4"/><circle cx="798" cy="220" r="4"/><circle cx="798" cy="181" r="4"/><circle cx="904" cy="181" r="4"/></g>
+  <g transform="translate(1032 177)" stroke="#55a9ff" stroke-width="2" fill="#14243a">
+    <path d="M0-48V-67M-32-26L-48-42M32-26L48-42" fill="none" stroke-linecap="round"/><circle cx="0" cy="-70" r="4" fill="#48e0ff" stroke="none"/>
+    <rect x="-48" y="-27" width="96" height="69" rx="14"/><path d="M-48-5H-61V19H-48M48-5H61V19H48" fill="none"/>
+    <circle cx="-17" cy="-1" r="6" fill="#4ce0ff" stroke="none"/><circle cx="17" cy="-1" r="6" fill="#4ce0ff" stroke="none"/><path d="M-14 22Q0 30 14 22" fill="none" stroke="#4ce0ff"/>
+    <rect x="-29" y="42" width="58" height="22" rx="6"/><circle cx="-30" cy="66" r="9" fill="#0a1422"/><circle cx="30" cy="66" r="9" fill="#0a1422"/>
+  </g>
+  <circle cx="1032" cy="177" r="91" fill="none" stroke="#4c8eff" stroke-opacity=".3" stroke-dasharray="2 9"/>
+  <path d="M947 83L972 109M1100 244L1150 269" stroke="#46dfff" stroke-opacity=".4"/>
+  <text x="646" y="312" fill="#91a6bc" font-family="Menlo,Consolas,monospace" font-size="9" letter-spacing="1.2">NAVIGATION STUDY / ABSTRACT SYSTEM DIAGRAM</text>
 </svg>

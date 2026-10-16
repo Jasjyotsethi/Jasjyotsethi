@@ -1,9 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="640" height="224" viewBox="0 0 320 112" role="img" aria-labelledby="title desc">
-  <title id="title">Maze navigation diagram</title>
-  <desc id="desc">Abstract maze walls with a cyan route and a small robot marker. This is an illustration, not a photograph.</desc>
-  <rect width="320" height="112" rx="8" fill="#101a28"/>
-  <path d="M24 18H296M24 18V94H296V18M78 18V68H130V42H208V94M130 68H182V94M242 18V54H296" fill="none" stroke="#54708d" stroke-width="4" stroke-linecap="round"/>
-  <path d="M42 82V36H108V54H156V78H224V36H270" fill="none" stroke="#42d9ff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-  <circle cx="42" cy="82" r="6" fill="#4385ff"/>
-  <circle cx="270" cy="36" r="6" fill="#42d9ff"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="300" viewBox="0 0 480 150" role="img" aria-labelledby="title desc" preserveAspectRatio="xMidYMid meet">
+  <title id="title">Autonomous maze route schematic</title>
+  <desc id="desc">A technical map illustration with architectural maze walls, coordinate guides, cyan route, sensor nodes, and start and goal markers.</desc>
+  <defs>
+    <pattern id="grid" width="16" height="16" patternUnits="userSpaceOnUse"><path d="M16 0H0V16" fill="none" stroke="#7690aa" stroke-opacity=".12"/></pattern>
+    <linearGradient id="route" x2="1"><stop stop-color="#41e1f5"/><stop offset="1" stop-color="#4c83ff"/></linearGradient>
+    <filter id="sensor-glow" x="-150%" y="-150%" width="400%" height="400%"><feGaussianBlur stdDeviation="3" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="480" height="150" rx="10" fill="#0b1421"/><rect width="480" height="150" rx="10" fill="url(#grid)"/>
+  <text x="18" y="20" fill="#8da5bb" font-family="Menlo,Consolas,monospace" font-size="8" letter-spacing="1.2">NAV / MAZE MAP</text><text x="410" y="20" fill="#55dff5" font-family="Menlo,Consolas,monospace" font-size="8">X 04 / Y 07</text>
+  <path d="M24 30H456M24 30V128H456V30M92 30V40M92 58V90M92 94H110M124 94H152M152 30V62M152 86V90M152 94H170M190 94H210M152 58H248V98M248 118V128M210 30V90M210 120V128M314 30V40M314 56V68M314 72H326M342 72H370M370 30V52M370 100V128M314 100H350V128M370 100H456" fill="none" stroke="#5a7088" stroke-width="3" stroke-linecap="square"/>
+  <path d="M46 112V48H118V74H180V108H270V48H334V84H416" fill="none" stroke="url(#route)" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <g fill="#0b1421" stroke="#48dff2" stroke-width="2" filter="url(#sensor-glow)"><circle cx="118" cy="74" r="6"/><circle cx="180" cy="108" r="6"/><circle cx="270" cy="48" r="6"/><circle cx="334" cy="84" r="6"/></g>
+  <circle cx="46" cy="112" r="7" fill="#4c83ff" filter="url(#sensor-glow)"/><circle cx="416" cy="84" r="7" fill="#49e0ef" filter="url(#sensor-glow)"/>
+  <path d="M34 112H58M46 100V124M404 84H428M416 72V96" stroke="#d9f7ff" stroke-width="1" stroke-opacity=".75"/>
+  <text x="18" y="142" fill="#8097ad" font-family="Menlo,Consolas,monospace" font-size="7" letter-spacing="1">SENSOR NODES / WAYPOINTS / ROUTE STUDY</text>
 </svg>

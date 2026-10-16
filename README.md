@@ -1,61 +1,102 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="light.svg">
-  <img src="dark.svg" alt="Jasjyot — Robotics + AI, autonomous systems, and embedded software" width="100%">
+  <img src="dark.svg" alt="Jasjyot — robotics, autonomous navigation, and software" width="100%">
 </picture>
 
-<h1 align="center">Jasjyot</h1>
-<p align="center"><strong>Robotics + AI · Autonomous Systems · Embedded Software</strong></p>
+<p align="center">Student exploring how <strong>robotics, autonomous systems, computer vision, and software</strong> connect.</p>
 
-I'm a student exploring how software and hardware work together—from sensing and navigation to computer vision and robot control. My projects include Arduino and LEGO Mindstorms EV3 experiments, plus Python/OpenCV vision examples.
+## Achievements &amp; Competitions
 
-## Technology
+**ROBOCUP ASIA-PACIFIC · RESCUE MAZE · 2025**<br>
+<code>2ND PLACE · TEAM RESULT · INDIA</code>
 
-<p>
-  <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=flat-square&amp;logo=python&amp;logoColor=white">
-  <img alt="C++" src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&amp;logo=cplusplus&amp;logoColor=white">
-  <img alt="Arduino" src="https://img.shields.io/badge/Arduino-00878F?style=flat-square&amp;logo=arduino&amp;logoColor=white">
-  <img alt="EV3" src="https://img.shields.io/badge/LEGO%20EV3-E6A700?style=flat-square&amp;logo=lego&amp;logoColor=white">
-  <img alt="OpenCV" src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&amp;logo=opencv&amp;logoColor=white">
-  <img alt="Computer Vision" src="https://img.shields.io/badge/Computer%20Vision-2868D7?style=flat-square">
-  <img alt="Robotics" src="https://img.shields.io/badge/Robotics-087E9B?style=flat-square">
-</p>
+The official result sheet records second place for an India team entry. This is a team result; individual award attribution is not claimed here. [Official results →](https://2025.robocupap.org/wp-content/2025/Results/3.%20RCAP2025_Award_Junior_Rescue.pdf)
 
-## Featured Projects
+**ROBOCUPJUNIOR · RESCUE MAZE · 2026**<br>
+<code>ARCHIVE-LISTED PARTICIPATION · NO PLACEMENT CLAIMED</code>
 
-<table>
-  <thead>
-    <tr>
-      <th align="left">Arduino Maze Navigation</th>
-      <th align="left">EV3 Maze &amp; Line Projects</th>
-      <th align="left">OpenCV Color Vision</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td valign="top" width="33%">
-        <img src="maze-navigation.svg" alt="Maze navigation diagram: abstract maze walls with a cyan route and robot marker" width="100%">
-        <p>Arduino sketches exploring maze-navigation logic, sensor input, and motor control. Hardware behavior is not claimed as verified.</p>
-        <p><a href="https://github.com/Jasjyotsethi/arduino-maze-navigation">View repository →</a></p>
-      </td>
-      <td valign="top" width="33%">
-        <img src="ev3-robot.svg" alt="Simplified LEGO EV3-style robot with wheels, sensors, and cyan circuit details" width="100%">
-        <p>Selected LEGO Mindstorms EV3 files for maze and line-following experiments. Program behavior remains to be verified.</p>
-        <p><a href="https://github.com/Jasjyotsethi/ev3-maze-and-line-projects">View repository →</a></p>
-      </td>
-      <td valign="top" width="33%">
-        <img src="opencv-segmentation.svg" alt="OpenCV colour segmentation illustration showing sample colours mapped to highlighted masks" width="100%">
-        <p>Python examples using OpenCV HSV masks to explore webcam color segmentation.</p>
-        <p><a href="https://github.com/Jasjyotsethi/opencv-color-vision-experiments">View repository →</a></p>
-      </td>
-    </tr>
-  </tbody>
-</table>
+Participation is associated with the published 2026 Rescue Maze archive. No placement or individual technical contribution is claimed here. [2026 Rescue Maze archive →](https://robocup-junior.github.io/rcj-rescue-docs-site/2026/maze/)
 
-## Currently Exploring
+## Featured Engineering Projects
 
-Autonomous navigation · Computer vision · AI for robotics
+- **01 / ATTENDRA** — Local-first attendance workflows with recognition, records, and optional cloud synchronization. [Project overview ↓](#attendra)
+- **02 / JARVIS AI** — A modular local desktop assistant with voice, memory, and plugin-based components. [Project overview ↓](#jarvis-ai)
+- **03 / ROBOTICS + VISION** — Arduino navigation, LEGO EV3 experiments, and OpenCV color-segmentation studies. [Project overview ↓](#robotics-and-computer-vision)
+
+## Attendra
+
+**AI attendance system · private source and data**
+
+<img src="attendra-architecture.svg" alt="Conceptual Attendra data flow: camera-based recognition produces attendance events stored in local SQLite, with optional Google Sheets synchronization and a register view" width="100%">
+
+The project documentation describes face-recognition-based attendance for school workflows. SQLite is the local source of truth; Google Sheets can mirror records, and the documented workflow includes attendance registers and related corrections. The system is designed for potential use in real school environments; no deployment claim is made here.
+
+**Documented current design** — Local attendance capture and records, SQLite storage, offline operation with queued synchronization, optional Google Sheets integration, and register workflows.
+
+**Planned / pending validation** — Project notes mark some interface assets as future work. No production deployment, institutional approval, or real-world privacy/security validation is claimed. Public materials exclude source code, credentials, face data, student records, and databases.
+
+## JARVIS AI
+
+**Modular personal desktop assistant · source not published here**
+
+<img src="jarvis-architecture.svg" alt="Conceptual JARVIS architecture showing voice or text input routed through modular assistant components to local memory, desktop plugins, a visual state interface, and optional speech output" width="100%">
+
+The project README documents a local desktop assistant architecture with persistent SQLite memory, voice and text entry points, a GUI state display, and protocol-based speech, language-model, and wake-word components. The documented plugin structure includes desktop-control and automation areas.
+
+**Documented current design** — Local memory, voice/GUI modes, asynchronous event routing, and modular components. The README describes optional local language-model and speech engines; this profile does not claim they are configured or tested on every machine.
+
+**Planned / extension points** — The project documentation identifies future hardware integrations as an extension point. Broader desktop workflow coverage is not claimed here.
+
+## Security Engineering
+
+Security review work has focused on publication safety: credential and secret-handling checks, authentication and access-control considerations, and privacy review for sensitive data flows. These reviews inform what is kept private; this profile does not publish credentials, biometric data, student records, databases, or sensitive findings. No unverified security hardening claims are made.
+
+## Robotics and Computer Vision
+
+### 01 / Arduino Maze Navigation
+
+<img src="maze-navigation.svg" alt="Technical diagram of a maze with a cyan navigation route, sensor nodes, coordinates, and waypoints" width="100%">
+
+Arduino sketches exploring maze-navigation logic, sensor input, and motor control. Hardware setup and behavior have not been verified here.
+
+<code>C++</code> &nbsp; <code>Arduino</code> &nbsp; <code>Sensors</code>
+
+[Open the repository →](https://github.com/Jasjyotsethi/arduino-maze-navigation)
+
+### 02 / LEGO Mindstorms EV3
+
+<img src="ev3-robot.svg" alt="Custom schematic illustration of a LEGO EV3-style mobile robot with wheels, sensors, track markings, and control indicators" width="100%">
+
+Selected EV3 project files for maze and line-following experiments. The available files do not establish verified program behavior.
+
+<code>LEGO EV3</code> &nbsp; <code>Robotics</code> &nbsp; <code>Control</code>
+
+[Open the repository →](https://github.com/Jasjyotsethi/ev3-maze-and-line-projects)
+
+### 03 / OpenCV Color Vision
+
+<img src="opencv-segmentation.svg" alt="Computer vision pipeline diagram from image input through color segmentation masks to color-class output" width="100%">
+
+Python examples using OpenCV HSV masks to explore webcam color segmentation.
+
+<code>Python</code> &nbsp; <code>OpenCV</code> &nbsp; <code>Computer Vision</code>
+
+[Open the repository →](https://github.com/Jasjyotsethi/opencv-color-vision-experiments)
+
+## Technology Toolkit
+
+<p><strong>SOFTWARE</strong><br><code>Python</code> &nbsp; <code>C++</code></p>
+<p><strong>PLATFORMS</strong><br><code>Arduino</code> &nbsp; <code>LEGO Mindstorms EV3</code></p>
+<p><strong>DOMAINS</strong><br><code>Computer Vision</code> &nbsp; <code>Robotics</code> &nbsp; <code>Embedded Systems</code></p>
+
+## Current Focus
+
+- **NAV / AUTONOMY** — Mapping, sensing, and motion-planning concepts.
+- **EMBEDDED** — Hardware-software interfaces and control.
+- **VISION** — Image processing and color segmentation.
+- **ROBOTICS + AI** — Exploring how intelligent software can support physical systems.
 
 ---
 
-[Browse my repositories](https://github.com/Jasjyotsethi?tab=repositories)
+[Browse all repositories →](https://github.com/Jasjyotsethi?tab=repositories)

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="600" viewBox="0 0 480 300" role="img" aria-labelledby="title desc" preserveAspectRatio="xMidYMid meet">
+  <title id="title">Attendra local-first attendance data flow</title>
+  <desc id="desc">A conceptual top-to-bottom flow from camera input through face detection and recognition, an entry and attendance decision, then the local application and SQLite source of truth. Optional Google Sheets synchronization is a one-way reporting destination. No personal or biometric data is shown.</desc>
+  <defs><pattern id="grid" width="16" height="16" patternUnits="userSpaceOnUse"><path d="M16 0H0V16" fill="none" stroke="#7690aa" stroke-opacity=".1"/></pattern></defs>
+  <rect width="480" height="300" rx="10" fill="#0b1421"/><rect width="480" height="300" rx="10" fill="url(#grid)"/>
+  <text x="20" y="20" fill="#8da5bb" font-family="Menlo,Consolas,monospace" font-size="8" letter-spacing="1.1">ATTENDRA / CONCEPTUAL DATA FLOW</text>
+  <g fill="#12243a" stroke="#4b83ff" stroke-width="1.5">
+    <rect x="174" y="32" width="132" height="34" rx="6"/>
+    <rect x="132" y="82" width="216" height="38" rx="6"/>
+    <rect x="132" y="136" width="216" height="38" rx="6"/>
+    <rect x="112" y="190" width="256" height="44" rx="6"/>
+    <rect x="146" y="258" width="188" height="30" rx="6" stroke="#49dff3"/>
+  </g>
+  <g font-family="Menlo,Consolas,monospace" text-anchor="middle">
+    <text x="240" y="53" fill="#e3edf7" font-size="9">CAMERA INPUT</text>
+    <text x="240" y="99" fill="#e3edf7" font-size="9">FACE DETECTION</text><text x="240" y="112" fill="#9bb0c6" font-size="8">AND RECOGNITION</text>
+    <text x="240" y="153" fill="#e3edf7" font-size="9">ENTRY + ATTENDANCE DECISION</text><text x="240" y="166" fill="#9bb0c6" font-size="8">DOCUMENTED WORKFLOW</text>
+    <text x="240" y="209" fill="#e3edf7" font-size="9">LOCAL APPLICATION + SQLITE</text><text x="240" y="224" fill="#49dff3" font-size="8" letter-spacing=".7">SOURCE OF TRUTH</text>
+    <text x="240" y="277" fill="#e3edf7" font-size="8">OPTIONAL GOOGLE SHEETS SYNC</text>
+  </g>
+  <g fill="none" stroke="#49dff3" stroke-width="2">
+    <path d="M240 66V78M235 73L240 78L245 73"/>
+    <path d="M240 120V132M235 127L240 132L245 127"/>
+    <path d="M240 174V186M235 181L240 186L245 181"/>
+    <path d="M240 234V250M235 245L240 250L245 245"/>
+  </g>
+  <text x="20" y="293" fill="#8097ad" font-family="Menlo,Consolas,monospace" font-size="7" letter-spacing=".7">ONE-WAY REPORTING DESTINATION / NO SHEETS-TO-REGISTER FLOW</text>
+</svg>

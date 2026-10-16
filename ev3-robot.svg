@@ -1,17 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="640" height="224" viewBox="0 0 320 112" role="img" aria-labelledby="title desc">
-  <title id="title">Abstract LEGO EV3-style robot</title>
-  <desc id="desc">A simplified block-based mobile robot with wheels, sensor eyes, and cyan circuit details. This is an illustration, not a photograph.</desc>
-  <rect width="320" height="112" rx="8" fill="#101a28"/>
-  <path d="M68 88H252" stroke="#54708d" stroke-width="3" stroke-dasharray="5 7"/>
-  <g stroke="#42d9ff" stroke-width="3" fill="#17283a">
-    <rect x="119" y="30" width="82" height="50" rx="7"/>
-    <rect x="138" y="15" width="44" height="18" rx="4"/>
-    <circle cx="130" cy="87" r="13"/>
-    <circle cx="190" cy="87" r="13"/>
-    <path d="M119 56H101V71H119M201 56H219V71H201"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="300" viewBox="0 0 480 150" role="img" aria-labelledby="title desc" preserveAspectRatio="xMidYMid meet">
+  <title id="title">LEGO EV3 mobile robot concept illustration</title>
+  <desc id="desc">A custom schematic of a compact block-based EV3-style robot on a marked track, with wheel, sensor, and control-system indicators. It is an illustration, not a photograph.</desc>
+  <defs><pattern id="grid" width="16" height="16" patternUnits="userSpaceOnUse"><path d="M16 0H0V16" fill="none" stroke="#7690aa" stroke-opacity=".1"/></pattern></defs>
+  <rect width="480" height="150" rx="10" fill="#0b1421"/><rect width="480" height="150" rx="10" fill="url(#grid)"/>
+  <text x="18" y="20" fill="#8da5bb" font-family="Menlo,Consolas,monospace" font-size="8" letter-spacing="1.2">MOBILE PLATFORM / EV3</text><text x="397" y="20" fill="#55dff5" font-family="Menlo,Consolas,monospace" font-size="8">CONTROL LOOP</text>
+  <path d="M25 113H455M25 121H455" stroke="#526b85" stroke-width="2" stroke-dasharray="8 7"/><path d="M36 117H444" stroke="#48dff2" stroke-width="1" stroke-opacity=".35"/>
+  <g transform="translate(235 77)" stroke="#4bdcf1" stroke-width="2.5" fill="#17283a">
+    <rect x="-57" y="-25" width="114" height="61" rx="8"/><rect x="-28" y="-47" width="56" height="23" rx="5"/>
+    <path d="M-57-4H-77V18H-57M57-4H77V18H57" fill="none"/><circle cx="-37" cy="39" r="14" fill="#08111d"/><circle cx="37" cy="39" r="14" fill="#08111d"/>
+    <rect x="-17" y="-41" width="34" height="11" rx="3" fill="#4b83ff"/><circle cx="-19" cy="-1" r="5" fill="#4bdcf1"/><circle cx="19" cy="-1" r="5" fill="#4bdcf1"/><path d="M-12 17H12" stroke="#4b83ff" stroke-linecap="round"/>
   </g>
-  <rect x="148" y="22" width="24" height="10" rx="2" fill="#4385ff"/>
-  <circle cx="146" cy="52" r="5" fill="#42d9ff"/>
-  <circle cx="174" cy="52" r="5" fill="#42d9ff"/>
-  <path d="M147 68H173" stroke="#4385ff" stroke-width="3" stroke-linecap="round"/>
+  <g fill="none" stroke="#4c83ff" stroke-width="1.5"><path d="M158 55H117V39H82"/><path d="M312 62H353V44H400"/><path d="M167 94H130V101H91"/></g>
+  <g fill="#4bdcf1"><circle cx="82" cy="39" r="3"/><circle cx="400" cy="44" r="3"/><circle cx="91" cy="101" r="3"/></g>
+  <text x="18" y="43" fill="#9cb0c4" font-family="Menlo,Consolas,monospace" font-size="7">SENSOR INPUT</text><text x="358" y="39" fill="#9cb0c4" font-family="Menlo,Consolas,monospace" font-size="7">MOTION</text><text x="18" y="98" fill="#9cb0c4" font-family="Menlo,Consolas,monospace" font-size="7">TRACK LINE</text>
+  <text x="18" y="142" fill="#8097ad" font-family="Menlo,Consolas,monospace" font-size="7" letter-spacing="1">SCHEMATIC STUDY / PROGRAM BEHAVIOUR NOT VERIFIED</text>
 </svg>
